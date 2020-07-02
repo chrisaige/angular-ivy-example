@@ -3,10 +3,12 @@ import {NgModule} from '@angular/core';
 import {ToolbarModule} from '@porscheinformatik/material-addons';
 import {AppComponent} from './app.component';
 import '@angular/compiler';
+import { TestComponent } from './test/test/test/test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
